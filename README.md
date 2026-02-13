@@ -8,7 +8,6 @@
   <meta name="description" content="Keyword Rich Description">
   <meta name="author" content="Skylar Cagle">
 
-  <link href="assets/css/style.css" rel="stylesheet" />
 </head>
 
 <body>
