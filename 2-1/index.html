@@ -14,19 +14,17 @@
             
             // get miles driven from user
             let miles = parseFloat(prompt("Enter miles driven"));
-            miles = miles.toFixed(2)
 
             // get gallons used from user
             let gallons = parseFloat(prompt("Enter gallons of gas used"));
-            gallons = gallons.toFixed(2);
 
             // calculate mpg
-            const mpg = (miles/gallons).toFixed(2);
+            const mpg = (miles/gallons);
 
             // display results
-            const html = "<p>Miles driven = " + miles + "</p>" +
-				    "<p>Gallons of gas = " + gallons + "</p>" +
-					"<p>Miles per gallon = " + mpg + "<p>";
+            const html = "<p>Miles driven = " + miles.toFixed(2) + "</p>" +
+				    "<p>Gallons of gas = " + gallons.toFixed(2) + "</p>" +
+					"<p>Miles per gallon = " + mpg.toFixed(2) + "<p>";
             document.write(html);
         </script>    
     </main>
