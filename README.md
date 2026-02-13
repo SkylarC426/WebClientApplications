@@ -15,7 +15,7 @@
   <h1>Skylar Cagle</h1>
   <nav>
     <ul>
-        <li><a href="2-1/index.html">2-1</a></li>
+        <li><a href="2-1/index.html">2-1 for sure</a></li>
     </ul>
   </nav>
   </div>
