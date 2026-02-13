@@ -21,7 +21,8 @@
             gallons = gallons.toFixed(2);
 
             // calculate mpg
-            const mpg = (miles/gallons).toFixed(2);
+            const mpg = (miles/gallons);
+            mpg = mpg.toFixed(2);
 
             // display results
             const html = "<p>Miles driven = " + miles + "</p>" +
