@@ -31,6 +31,7 @@ if (scores.length > 0) {
 
     //calculate and display the average
     const average = parseInt(total/scores.length);
+    const highestScore = highestScore; 
     document.write(`<p>Average score is ${average}</p>`);
     document.write(`<p>Highest score is ${highestScore}</p>`)
 }
