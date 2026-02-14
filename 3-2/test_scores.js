@@ -40,5 +40,5 @@ if (scores.length > 0) {
     //     }
     // }
 
-    document.write(`<p>Highest score is ${highestScore}</p>`);
+    document.write(`<p>Highest score is ${highestScore}</p>`)
 }
