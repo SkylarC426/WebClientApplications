@@ -1,7 +1,7 @@
 "use strict";
 
 const scores = [];
-let highestScore = 0;
+const highestScore = 0;
 
 // use do-while loop to get the scores from the user
 let score = 0;
