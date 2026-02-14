@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Web Client Applications | Skylar Cagle</title>
+
   <meta name="description" content="Keyword Rich Description">
   <meta name="author" content="Skylar Cagle">
 
