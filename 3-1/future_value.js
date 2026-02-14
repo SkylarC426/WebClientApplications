@@ -28,7 +28,7 @@ do {
 while ( isNaN(years) || years <= 0);
 
 //writes entries
-document.write(`<h4>Investment amount = ${investment} Interest rate = ${rate} Years = ${years}</h4>`);
+document.write(`<h4>Investment amount = ${investment} Interest rate = ${rate} Years = ${years}</h4>`)
 
 // calulate future value
 let futureValue = investment;
@@ -37,7 +37,7 @@ for (let i = 1; i <= years; i++ ) {
     futureValue = futureValue + interest;
 
     //writes results
-    document.write(`<p>Year=${i} Interest=${interest.toFixed(2)} Value=${futureValue.toFixed(2)}</p>`);
+    document.write(`<p>Year=${i} Interest=${interest.toFixed(2)} Value=${futureValue.toFixed(2)}</p>`)
 }
 
 again = prompt("Repeat entries? (y/n)", "y");
